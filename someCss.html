@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="anExternal.css">
+        <style>
+            #rcorners {
+                border-radius: 25px;
+                border: 2px solid #a708bb;
+                padding: 20px; 
+                width: 200px;
+                height: 50px; 
+            }
+            .container {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            table {
+                border-collapse: collapse;
+                border: 1px solid black;
+            } 
+            th,td {
+                border: 1px solid black;
+            }
+            table.a {
+                table-layout: auto;
+                width: 180px;  
+            }
+            img.a{
+                margin: 20px;
+            }
+            p.dotted {border-style: dotted;}
+            span {
+                float: left;
+                width: 0.7em;
+                font-size: 300%;
+                font-family: algerian, courier;
+                line-height: 80%;
+            }
+          </style>
+        <title>Tianyi's Website</title>
+    </head>
+    <body>
+        <h1>Tianyi Gao</h1>
+        <h2>Level 1</h2>
+        <p style="font-size: x-small">I'm from Beijing, China. I am a junior majoring in Mathematics and CFRM.</p>
+        <p style="font-size: x-large">I love watching Korean and Chinese dramas. </p>
+        <ol>
+            <li><a href="https://fyp.washington.edu/single/dubs-challenge/"><img src="https://fyp.washington.edu/site/assets/files/21356/dubs1-780x495.jpg" title="Dubs"style="height: 50px;width:50px"></a></li>
+            <li><a href="https://thehappypuppysite.com/maltese-lifespan/"><img src="https://thehappypuppysite.com/wp-content/uploads/2019/03/Maltese-Lifespan-long.jpg" title="Maltese"style="height: 50px;width:50px"></a></li>
+        </ol>
+        <table class="a">
+            <tr>
+              <th>Name</th>
+              <th>Gender</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Tianyi Gao</td>
+              <td>Female</td>
+              <td>20</td>
+            </tr>
+          </table>
+        <h2>Level 2</h2>
+        <div class="container">
+            <img src="https://fyp.washington.edu/site/assets/files/21356/dubs1-780x495.jpg" title="Dubs">        
+            <div class="centered">Dubs</div>
+        </div>
+        <img class="a" src="https://fyp.washington.edu/site/assets/files/21356/dubs1-780x495.jpg" title="Dubs">
+        <p class="dotted">I'm from Beijing, China. I am a junior majoring in Mathematics and CFRM.</p>
+        <h2>Level 3</h2>
+        <p style="font-size: x-large"><span>M</span>y name is Tianyi Gao. I am from Beijing, China. I am a junior majoring in Mathematics and CFRM. I love watching Korean and Chinese dramas.</p>
+        <p id="rcorners">I am from Beijing, China. I am a junior majoring in Mathematics and CFRM.</p>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+div {
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+legend {
+    color: #8E41D5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
